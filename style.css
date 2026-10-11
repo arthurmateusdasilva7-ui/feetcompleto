@@ -1,0 +1,38 @@
+body{
+  margin:0;
+  Background-color: grey;
+}
+
+header{
+   background-color: #000000;
+    color: Black;
+    padding: 30px;
+    text-align: up;
+}
+
+main {
+    counter-reset: secao;
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 30px;
+}
+
+section {
+    counter-increment: secao;
+}
+
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 8px;
+}
+
+footer{
+  background-color: grey;
+  color: white;
+}
